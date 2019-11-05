@@ -1,0 +1,62 @@
+Estrutura basica (View Principal):
+    - Barra de notificações (nativa, entao nem vou mexer)
+    - header
+    - Barra de Publicação.
+    - Stories (depois coloco)
+    - Menu
+    - Uma view para as opções do menu (vamo começar pelo feed);
+    
+    * Vou por uma cor de fundo para fazer os separadores com margin.
+
+Header:
+    -Logo
+    -Botao Search 
+    -Botao Menseger
+     * nao vou por nenhum button por enquanto.
+Barra de Publicações:  *header
+    *parte 1 (new-pub-header)
+    - Foto de perfil *img-perfil-new-pub
+    - Campo da publicação   *content-new-pub
+    *parte 2 (new-pub-options) 
+    - Live  *new-live-btn
+    - Foto  *new-pic-btn
+    - Check-in  *new-check-btn
+
+
+Menu: *Vou colocar em baixo, melhor*
+    - home(feed)
+    - solicitações
+    - notificações
+    - perfil
+
+Feed:
+    - Publicação
+    - separador
+    - publicação
+    - separador
+    - publicação
+    - separador 
+    - hahaha...
+
+Publicação:
+    *Header:
+    - Foto 
+    - Autor da pub.
+    - botão de opções.
+    - Privacidade da Pub. *acho que nao precisa
+    - Tempo da publicação.
+
+    *Body da pub:
+    - Texto
+    - Imagem
+
+    *Footer
+    * Legenda:
+    - Total de reações * vou usar likes apenas.
+    -  " Comentarios
+    -  " Compartilhamentos
+    *options
+    - Btn Curtir (icone + text)
+    - Btn Comentar (icone + text)
+    - Btn Compartilhar. (icone + text)
+
