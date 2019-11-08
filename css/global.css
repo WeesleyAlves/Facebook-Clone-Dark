@@ -1,10 +1,13 @@
 :root {
-    --main-bg-color: #121629;
-    --secundary-bg-color: #1e1e24;
+    --main-bg-color: #171717;
+    --secundary-bg-color: #2b2b2b;
     --terceary-gb-color: white;
     --test-color: white;
-    --font-color: white;
+    --main-font-color: white;
+    --secundary-font-color: gray;
+    --btn-font-color: white;
     --new-pub-color: white;
+    --name-autor-pub: white;
 }
 
 * {
@@ -33,7 +36,7 @@ html, body {
 }
 
 #text-banner-header{
-    color : var(--font-color);
+    color : var(--main-font-color);
     padding-left: 10px;
     font-size: 26px;
     font-weight: bold;
@@ -117,13 +120,13 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: var(--secundary-bg-color);
-    border: 1px solid var(--main-bg-color);
-    border-radius: 5px;
+    border: 1px var(--main-bg-color);
+    border-style: none solid none none;
     margin: 0px 2px;
     flex-grow: 1;
     padding-top: 10px;
     padding-bottom: 10px;
-    box-shadow: black -1px 1px 2px;
+    /*box-shadow: black -1px 1px 2px;*/
 }
 
 .new-pub-icon{
@@ -136,4 +139,121 @@ html, body {
 
 .text-new-pub-btn{
     background-color: var(--secundary-bg-color);
+}
+
+/* CSS do feed de pubs *****************************/
+
+#container-feed{
+    width: 96%;
+    min-height: 300px;
+    margin: 5px auto;
+}
+
+.pub-feed {
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--secundary-bg-color);
+    margin: 8px auto;
+    padding-bottom: 10px;
+}
+
+.header-pub-feed{
+    width: 95%;
+    height: 60px;
+    margin: 0px auto;
+    background-color: var(--secundary-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.info-autor{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    background-color: var(--secundary-bg-color);
+}
+
+.img-autor{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: coral;
+}
+
+.name-autor{
+    color: var(--name-autor-pub);
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: var(--secundary-bg-color)
+
+}
+
+.options-pub{
+    color: var(--name-autor-pub);
+    font-size: 22px;
+    font-weight: bold;
+    background-color: var(--secundary-bg-color);
+    margin-right: 5px;
+}
+
+.body-pub-feed{
+    width: 100%;
+    min-height: 20px;
+    background-color: var(--secundary-bg-color);
+}
+
+.text-pub-feed{
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--secundary-bg-color);
+    color: var(--main-font-color);
+    text-align: left;
+    margin-bottom: 7px;
+    font-size: 14px;
+    min-height: 14px;
+}
+
+.img-pub-feed{
+    width: 100%;
+    min-height: 250px;
+    background-color: #28733a
+}
+
+.footer-pub-feed{
+    width: 100%;
+}
+
+.actions-pub-feed{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secundary-bg-color);
+}
+
+.btn-pub-feed{
+    height: 40px;
+    color: var(--btn-font-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: var(--secundary-bg-color);
+    margin: 0 2px;
+}
+
+.icon-btn-pub-feed{
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: var(--terceary-gb-color);
+}
+
+.text-btn-pub-feed{
+    background-color: var(--secundary-gb-color);
+    font-size: 12px;
 }
