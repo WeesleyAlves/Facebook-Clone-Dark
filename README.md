@@ -1,3 +1,5 @@
-Facebook Clone Dark
+# Facebook Clone Dark
 
-Apenas um projeto pessoal para estudo de CSS e HTML, fazendo uma versao "dark" do facebook mobile...
+Um projeto para aplicar conhecimento de CSS, HTML e JS montando um esboço do feed do Facebook.
+
+**Disponivel em:** https://weesleyalves.github.io/Facebook-Clone-Dark/
