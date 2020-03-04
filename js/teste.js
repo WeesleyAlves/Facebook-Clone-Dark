@@ -47,7 +47,7 @@ function gerarFeed() {
     while(pub_id<5){
         containerFeed.innerHTML+=postFeed;
         pub_id++;
-        alert(pub_id);
+        //alert(pub_id);
     }
 
 
